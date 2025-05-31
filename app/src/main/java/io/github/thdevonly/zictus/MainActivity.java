@@ -9,7 +9,7 @@ import io.github.thdevonly.zictus.holder.*;
 import java.io.*;
 
 public class MainActivity extends Activity {
-    MainBinding binding;
+    MainBinding binding; 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
