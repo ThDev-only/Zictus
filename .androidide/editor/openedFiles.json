@@ -14,7 +14,22 @@
           "line": 0
         }
       }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Zictus/.gitignore",
+      "selection": {
+        "end": {
+          "column": 11,
+          "index": 1453,
+          "line": 85
+        },
+        "start": {
+          "column": 11,
+          "index": 1453,
+          "line": 85
+        }
+      }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Zictus/app/build.gradle.kts"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Zictus/.gitignore"
 }
