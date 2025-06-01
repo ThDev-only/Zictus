@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 rootProject.name = "Zictus"
 
 include(":app")
+include(":treeview")
