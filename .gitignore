@@ -83,4 +83,4 @@ lint/tmp/
 # lint/reports/
 
 # AndroidIDE
-.androidide
+.androidide/
