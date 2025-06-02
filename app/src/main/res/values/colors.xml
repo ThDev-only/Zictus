@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="jsx_keyword">#FF569CD6</color>        <!-- azul clássico VSCode -->
+<color name="jsx_string">#FFCE9178</color>         <!-- laranja/terra -->
+<color name="jsx_tag">#FF4EC9B0</color>            <!-- verde água -->
+<color name="jsx_attr_name">#FFD7BA40</color>      <!-- amarelo ouro mais suave -->
+<color name="jsx_attr_value">#FFC678DD</color>     <!-- lilás mais suave -->
+<color name="jsx_comment">#FF6A9955</color>        <!-- verde musgo escuro -->
+<color name="jsx_bracket">#FF808080</color>        <!-- cinza médio neutro -->
+<color name="jsx_operator">#FFD4D4D4</color>       <!-- cinza claro -->
+</resources>

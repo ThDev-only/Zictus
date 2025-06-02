@@ -12,8 +12,17 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        
+
         <!-- Toolbar ou outros elementos -->
+        <com.amrdeveloper.codeview.CodeView
+            android:id="@+id/code_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dropDownWidth="150dp"
+            android:dropDownHorizontalOffset="0dp"
+            android:dropDownSelector="#FF292929"
+            android:gravity="top|start" />
+
     </LinearLayout>
 
     <!-- Aba lateral (Drawer) -->

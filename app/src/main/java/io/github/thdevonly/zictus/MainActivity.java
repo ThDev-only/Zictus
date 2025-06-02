@@ -1,13 +1,17 @@
 
 package io.github.thdevonly.zictus;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.unnamed.b.atv.model.TreeNode;
 import com.unnamed.b.atv.view.AndroidTreeView;
 import io.github.thdevonly.zictus.databinding.ActivityMainBinding;
+import io.github.thdevonly.zictus.highlighter.JSXHighlighter;
 import io.github.thdevonly.zictus.holder.TreeNodeHolder;
+import io.github.thdevonly.zictus.languages.JSXLanguage;
 import java.io.File;
+import java.util.regex.Pattern;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -31,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         
         // set content view to binding's root
         setContentView(binding.getRoot());
+        
+     //   Pattern pt = Pattern.compile("private|public|protected");
+        JSXLanguage.apply(this, binding.codeView);
+      // binding.codeView.addSyntaxPattern(pt, Color.BLUE);
     }
     
     private TreeNode createFileTree(File dir) {
